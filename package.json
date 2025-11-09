@@ -1,0 +1,16 @@
+{
+  "name": "chess-explorer-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Proxy and cache for Lichess Opening Explorer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "lru-cache": "^10.0.0",
+    "node-fetch": "^3.4.1"
+  }
+}
